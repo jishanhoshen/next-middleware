@@ -27,7 +27,7 @@ export default nextMiddleware([
 ## Installation
 
 ```bash
-npm install next-middleware
+npm install next-middleware-chain
 ```
 
 ## Usage
