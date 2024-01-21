@@ -1,0 +1,29 @@
+{
+  "name": "next-middleware",
+  "version": "1.0.0",
+  "description": "Custom middleware for enhancing and extending the capabilities of Next.js applications. Simplify common tasks, implement authentication, handle routing intricacies, and more with this versatile and easy-to-use Next.js middleware package.",
+  "main": "index.js",
+  "dependencies": {
+    "next": "13.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jishanhoshen/next-middleware.git"
+  },
+  "keywords": [
+    "node",
+    "package",
+    "next",
+    "middleware"
+  ],
+  "author": "Jishan Hoshen <jishanhoshenjibon@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=18.16.0",
+    "npm": ">=9.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/jishanhoshen/next-middleware/issues"
+  },
+  "homepage": "https://github.com/jishanhoshen/next-middleware#readme"
+}
