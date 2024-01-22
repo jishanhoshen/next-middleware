@@ -1,5 +1,8 @@
 # Next Middleware
 
+[![npm version](https://badge.fury.io/js/next-middleware-chain.svg)](https://badge.fury.io/js/next-middleware-chain)
+
+
 A versatile middleware package for enhancing and extending the capabilities of Next.js applications. Simplify common tasks, implement authentication, handle routing intricacies, and more with this easy-to-use middleware package.
 
 Middleware Chain:
@@ -23,9 +26,10 @@ export default nextMiddleware([
   - [Contribution](#contribution)
   - [License](#license)
   - [Contact](#contact)
+  - [Changelog](#changelog)
 
 ## Installation
-
+You can install `next-middleware-chain` using npm:
 ```bash
 npm install next-middleware-chain
 ```
@@ -38,7 +42,7 @@ npm install next-middleware-chain
 
 ```js
 // middleware.js
-import { nextMiddleware, Starter } from "next-middleware";
+import { nextMiddleware, Starter } from "next-middleware-chain";
 
 export default nextMiddleware([Starter, AnotherMiddleware]);
 ```
@@ -98,7 +102,7 @@ Manage you path:
 
 ```js
 // middleware.js
-import { nextMiddleware } from "next-middleware";
+import { nextMiddleware } from "next-middleware-chain";
 import CustomMiddleware from "./Middleware/CustomMiddleware";
 
 export default nextMiddleware([CustomMiddleware]);
@@ -128,3 +132,12 @@ SEE LICENSE IN LICENSE
 ## Contact
 - [Github](https://github.com/jishanhoshen)
 - [Email](mailto:jishanhoshenjibon@gmail.com)
+
+## Changelog
+
+- **v1.1.0 (January 22, 2024):**
+  - Updated installation instructions in README.md
+  - Improved changelog formatting
+
+- **v1.0.0 (January 21, 2024):**
+  - Added basic and core features of middleware chain
